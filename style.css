@@ -1,14 +1,68 @@
-h1 {
-    color: #662c00;
+* {
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+.title {
+  color: blanchedalmond;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 body {
-    background-color: #f4a460;
-
+  width: 900px;
+  margin:auto;
+  background-color: #c5885f; /*notes*/
+  color: blanchedalmond;
 }
 
 p {
-    margin: 1em 10% 1em 10%
+  width: 900px;
+  margin:auto;
+  font-size: 15px;
+}
+
+.menu {
+  color: antiquewhite;
+  float:left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none; /*geen streep onder de link*/
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #c5885f; /* wanneer je met cursor eroverheen gaat verandert de achtergrond kleur*/
+  opacity: 0.8;
+  box-shadow: 5px 5px 5px black;
+}
+
+a:active {
+  background-color:#c5885f;   /* wanneer erop klikt word achtergrondkleur verandert*/
+  opacity: 0.5; /*knop word doorzichtig*/
 }
 
 
+footer {
+  background-color: #000000;
+  color:#ffffff;
+  clear: both;
+  text-align: center;
+}
+
+#pic1 {
+  width: 900px;
+  height:500px;
+  display: block; /*de afbeelding is 1 blok (hierdoor komt er geen tekst naast*/
+  clear:both; /*een enter na de afbeelding*/
+  margin: 20px auto; /*komt in het midden*/
+}
+
+.favicon {
+  width: 20px;
+  height: 20px;
+}
