@@ -8,13 +8,11 @@
   color: blanchedalmond;
   font-size: 30px;
   padding-top: 20px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: Dancing Script;
+  font-weight: bold;  
 }
 
 body {
-  width: 900px;
-  margin:auto;
   background-color: #c5885f; /*notes*/
   color: blanchedalmond;
 }
@@ -23,16 +21,7 @@ p {
   width: 900px;
   margin:auto;
   font-size: 15px;
-}
-
-.menu {
-  color: antiquewhite;
-  float:left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-decoration: none; /*geen streep onder de link*/
-  font-weight: bold;
+  color: blanchedalmond;
 }
 
 a:hover {
@@ -54,15 +43,41 @@ footer {
   text-align: center;
 }
 
+.favicon {
+  width: 25px;
+}
+
+.search-bar {
+  font-size: 15px;
+}
+
+.menu {
+  color: antiquewhite;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none; /*geen streep onder de link*/
+  font-weight: bold;
+}
+
+.inleidende-tekst.homepage {
+  width: 900px;
+  margin:auto;
+  font-size: 15px;
+  color: blanchedalmond;
+}
+
 #pic1 {
   width: 900px;
   height:500px;
   display: block; /*de afbeelding is 1 blok (hierdoor komt er geen tekst naast*/
   clear:both; /*een enter na de afbeelding*/
   margin: 20px auto; /*komt in het midden*/
+  object-fit: cover; /*de hoogtexbreedte word gedaan zonder de image gestrecht te maken dus deel van de foto kan weg vallen*/
 }
 
-.favicon {
-  width: 20px;
-  height: 20px;
+#pic2 {
+  width:300px;
 }
+
+
