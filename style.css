@@ -85,4 +85,21 @@ footer {
   object-fit: cover; /*de hoogtexbreedte word gedaan zonder de image gestrecht te maken dus deel van de foto kan weg vallen*/
 }
 
+#pic2{
+  margin-top: 3%;
+  float: left;
+}
 
+#pic3{
+  float: right;
+}
+
+#pic4{
+  float: left;
+  clear: both;
+}
+
+#pic5{
+  float: right;
+  clear: both;
+}
