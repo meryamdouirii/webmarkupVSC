@@ -5,7 +5,7 @@
 }
 
 .title {
-  color: blanchedalmond;
+  color: #ffebcd;
   font-size: 30px;
   padding-top: 20px;
   font-family: Dancing Script;
@@ -13,19 +13,19 @@
 }
 
 body {
-  background-color: #c5885f; /*notes*/
-  color: blanchedalmond;
+  background-color: #9e5d32d3; /*notes*/
+  color: #ffebcd;
 }
 
 p {
   width: 900px;
   margin:auto;
   font-size: 15px;
-  color: blanchedalmond;
+  color: #ffebcd;
 }
 
 a:hover {
-  background-color: #c5885f; /* wanneer je met cursor eroverheen gaat verandert de achtergrond kleur*/
+  background-color: #9e5d32d3; /* wanneer je met cursor eroverheen gaat verandert de achtergrond kleur*/
   opacity: 0.8;
   box-shadow: 5px 5px 5px black;
 }
