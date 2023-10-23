@@ -2,6 +2,67 @@
   margin: 0;
   padding: 0;
   border:0;
+  color: #FFFFFF;
 }
+
+body 
+  {
+    background-color: #7D4532;
+    width: 1400px; 
+    margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
+  }
+#mainmenu > a 
+  {
+    width: 20%;
+    height: 100%;
+    float: left;
+  }
+#mainmenu > a > img 
+  {
+    display: block;
+    margin:auto;
+    width: 100%;
+    height:100%;
+    margin: 40px;
+  }
+#mainmenu > ul
+  {
+    width: 40%;
+    line-height: 13em; /* hoe hoog/laag de menubar staat */
+    float : left;
+    text-align: center;
+  }
+#mainmenu > ul > li 
+  {
+    margin: 10px; /* ruimte tussen de linkjes menubar */
+    display: inline;
+    text-decoration: none;
+  }
+#mainmenu > form
+  {
+    width : 20%;
+    line-height : 7em;
+    float: left;
+    line-height: 13em; /* hoe hoog/laag de searchbar staat */
+  }
+#mainmenu form > h3
+  {
+    text-align: center;
+  }
+
+#mainmenu > ul > li > a
+  {
+    margin: 10px; /* ruimte tussen de linkjes menubar */
+    display: inline;
+    text-decoration: none;
+  }
+#mainmenu > ul > li > a:hover
+  {
+    font-weight: bold;
+  }
+  
+
+
+
 
 
