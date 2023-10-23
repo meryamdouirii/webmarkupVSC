@@ -14,8 +14,8 @@
 <body>
     <header>
         <nav id = "mainmenu">
-            <a href="#">
-                <img src="images/logo.png" alt="logo" title = "logo"> <!-- hier komt je logo-->
+            <a href="Homepage.html"> 
+                <img src="images/logo.png" alt="logo" title = "Homepage"> <!-- hier komt je logo-->
             </a>
             <ul>
                 <li>
@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="overzicht recepten.html" > 
+                    <a href="AlleRecepten.html" > 
                         recepten
                     </a>
                 </li>
@@ -42,33 +42,53 @@
 
 
     <main> <!-- in de main kun je article doen -->
-        <article>
-            <header>
-                Latest post..
-            </header>
+        <article id = "inleidende_tekst">
             <h1>
-                Your article..
+                Culinaire avonturen!
             </h1>
             <p>
-                This would be..
+                Ervaar de Marokkaanse keuken direct in je eigen keuken. 
+                Proef de smaken van oude recepten die met traditie zijn gemaakt; heerlijke tagines, marokaanse koekjes en nog meer recepten.
+                Leer hoe je tajines maakt en leer over kruidenmengsels.
+                Deze recepten, kooktips en culinaire verhalen zullen je betoveren, of je nu een ervaren chef-kok bent of nieuwsgierig bent naar nieuwe smaken.
+                Kom binnen, trek een schort aan en laat ons samen de keuken van Marokko ontdekken.
             </p>
+            <a href = "AlleRecepten.html" id="button"> Bekijk oorsprong recepten</a>
         </article>
     </main>
 
+    <aside> <!-- aside voor de 'advertentie' -->
+        <img id = "homepage_image" src="images/shabekia3.JPG" alt="chabekia" title = "chabekia">
+        <p id = "title_afbeelding_homepage"> chabekia</p>
+    </aside>
+
+    <section id = "grid-container-homepage">   
+        <article>   
+            recept1
+        </article>
+        <article>
+            recept2
+        </article>
+        <article>
+            recept3
+        </article>
+        <article>
+            recept4
+        </article>
+    </section>
+
     <footer id = "footer">
-        <section id = "company_footer_section_1">
+        <section id = "footer_section_1">
             <!--company info-->
         </section>
-        <section id = "company_footer_section_2">
+        <section id = "footer_section_2">
             <a href="#">
-                <img src="img/x.png" alt="" title=""/>
+                <img src="img/x.png" alt="footer" title="footer"/>
             </a>
             <p>
                 contact info
             </p>
         </section>
     </footer>
-
-
 </body>
 </html>

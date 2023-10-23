@@ -3,12 +3,12 @@
   padding: 0;
   border:0;
   color: #FFFFFF;
+  background-color: #7D4532;
 }
 
 body 
   {
-    background-color: #7D4532;
-    width: 1400px; 
+    width: 1250px; 
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
   }
 #mainmenu > a 
@@ -19,16 +19,15 @@ body
   }
 #mainmenu > a > img 
   {
-    display: block;
     margin:auto;
     width: 100%;
     height:100%;
-    margin: 40px;
+    margin-top: 40px;
   }
 #mainmenu > ul
   {
-    width: 40%;
-    line-height: 13em; /* hoe hoog/laag de menubar staat */
+    width: 30%;
+    line-height: 12em; /* hoe hoog/laag de menubar staat */
     float : left;
     text-align: center;
   }
@@ -37,6 +36,7 @@ body
     margin: 10px; /* ruimte tussen de linkjes menubar */
     display: inline;
     text-decoration: none;
+    margin-bottom: 0px;
   }
 #mainmenu > form
   {
@@ -53,14 +53,65 @@ body
 #mainmenu > ul > li > a
   {
     margin: 10px; /* ruimte tussen de linkjes menubar */
-    display: inline;
     text-decoration: none;
   }
 #mainmenu > ul > li > a:hover
   {
     font-weight: bold;
   }
-  
+
+#inleidende_tekst
+  {
+    float: left;
+    width: 654px;
+    font-size: 18px;
+  }
+
+#inleidende_tekst > h1
+  {
+     margin-bottom: 20px; /*ruimte tussen h1 en de inleidende tekst */
+     color: #FFFFDD;
+     font-size: 48px; 
+  }
+#inleidende_tekst > p
+  {
+    margin-bottom: 30px; /*ruimte tussen button en de inleidende tekst */
+  }
+
+
+#button
+  {
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid ;
+    text-decoration: none;
+    width: 212px;
+    display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
+  }
+
+#homepage_image
+  {
+    width: 400px;
+    float: right;
+  }
+
+#title_afbeelding_homepage
+  {
+    float: right;
+  }
+
+#grid-container-homepage
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  float: right;
+}
+
+
+
+
+
 
 
 
