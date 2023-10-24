@@ -104,7 +104,7 @@ body
 
 #grid-container-homepage /*les 5 powerpoint */
 {
-  clear: both; /*anders gaat alle tekst boven de nav? */
+  clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav? */
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px; /*ruimte tussen de containers*/
@@ -130,6 +130,14 @@ body
 #grid-container-homepage a:hover
 {
   text-decoration: underline;
+}
+
+footer
+{
+  background-image: url("images/footer.png"); 
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
