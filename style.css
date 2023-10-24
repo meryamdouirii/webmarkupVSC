@@ -122,7 +122,7 @@ a:hover {
   clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav? */
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 10px; /*ruimte tussen de containers*/
+  grid-gap: 160px; /*ruimte tussen de containers*/
   justify-content: space-between; /*begint bij het begin en eindigt helemaal op het einde width*/
 }
 
@@ -135,17 +135,26 @@ a:hover {
   {
     width: 190px;
     height: 302px;
-    object-fit: cover; /*zodat de image niet strecht */
+    object-fit: cover; /*zodat de image niet strecht */   
   }
-  
-footer
+
+/* footer */  
+footer img
+  {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    z-index: 0;
+  }
+
+#copyright 
 {
-    background-image: url("images/footer.png"); 
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width: auto;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #946E54;
 }
 
 /*css alle recepten */
@@ -176,6 +185,9 @@ footer
 #padding-container-AlleRecepten-tekst{
   width: 80%
 }
+
+
+
 
 
 
