@@ -21,6 +21,9 @@ a:hover {
   text-decoration: underline;
 }
 
+#mainmenu {
+  position: relative;
+}
 #mainmenu > a 
   {
     width: 20%;
@@ -98,11 +101,14 @@ a:hover {
     margin-bottom: 150px; /*ruimte tussen de button en de grid container */
     padding: 7px;
     border-radius: 10px;
-    border: solid ;
+    border: solid;
     text-decoration: none;
     width: 212px;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
     color:#FFFFFF;
+    border-color: #FFFFFF; /* moet voor grading group4 */
+    border-style: double; /* moet voor grading group4 */
+    border-width: 4px; /* moet voor grading group4 */
   }
 
 #homepage_image
@@ -143,7 +149,6 @@ footer img
   {
     height: 200px;
     width: 100%;
-    position: relative;
     background-position: center;
     z-index: 0;
   }
@@ -151,7 +156,6 @@ footer img
 #copyright 
 {
   z-index: 1;
-  position: relative;
   width: 100%;
   text-align: center;
   background-color: #946E54;
