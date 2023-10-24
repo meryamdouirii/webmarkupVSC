@@ -1,102 +1,89 @@
 * {
-  margin: 0;
-  padding: 0;
-  border:0;
-  color: #FFFFFF;
-  background-color: #7D4532;
-  font-size: 17px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #ffffff;
+    background-color: #7d4532;
+    font-size: 17px;
+    letter-spacing: 0; /* moet voor grading group3 */
 }
-
-body 
-  {
-    width: 1250px; 
+body {
+    width: 1250px;
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
-  }
+    line-height: normal;
+    text-indent: 0%;
+    word-spacing: 0px;
+}
 
 a {
-  text-decoration: none;
-  color:#9ACCFF;
+    text-decoration: none;
+    color: #9accff;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-#mainmenu {
-  position: relative;
-}
-#mainmenu > a 
-  {
+#mainmenu > a {
     width: 20%;
     height: 100%;
     float: left;
-  }
-#mainmenu > a > img 
-  {
-    margin:auto;
+}
+#mainmenu > a > img {
+    margin: auto;
     width: 100%;
-    height:100%;
+    height: 100%;
     margin-top: 40px;
-  }
-#mainmenu > ul
-  {
+}
+#mainmenu > ul {
     width: 30%;
     line-height: 12em; /* hoe hoog/laag de menubar staat */
-    float : left;
+    float: left;
     text-align: center;
-  }
-#mainmenu > ul > li 
-  {
+}
+#mainmenu > ul > li {
     margin: 10px; /* ruimte tussen de linkjes menubar */
     display: inline;
     text-decoration: none;
     margin-bottom: 0px;
-    color: #FFFFFF;
-  }
-#mainmenu > form
-  {
-    width : 20%;
-    line-height : 7em;
+    color: #ffffff;
+}
+#mainmenu > form {
+    width: 20%;
+    line-height: 7em;
     float: left;
     line-height: 13em; /* hoe hoog/laag de searchbar staat */
-  }
-#mainmenu form > h3
-  {
+}
+#mainmenu form > h3 {
     text-align: center;
-  }
-
-#mainmenu > ul > li > a
-  {
+}
+#mainmenu > ul > li > a {
     margin: 10px; /* ruimte tussen de linkjes menubar */
     text-decoration: none;
-    color: #FFFFFF;
-  }
-#mainmenu > ul > li > a:hover
-  {
+    color: #ffffff;
+}
+#mainmenu > ul > li > a:hover {
     font-weight: bold;
-  }
+}
+
+
+
 
 /*css homepage */
-#inleidende_tekst
-  {
-    float:left;
+#inleidende_tekst {
+    float: left;
     width: 654px;
     font-size: 18px;
-  }
-
-#inleidende_tekst > h1
-  {
-     margin-bottom: 20px; /*ruimte tussen h1 en de inleidende tekst */
-     color: #FFFFDD;
-     font-size: 48px; 
-  }
-#inleidende_tekst > p
-  {
+}
+#inleidende_tekst > h1 {
+    margin-bottom: 20px; /*ruimte tussen h1 en de inleidende tekst */
+    color: #ffffdd;
+    font-size: 48px;
+}
+#inleidende_tekst > p {
     margin-bottom: 30px; /*ruimte tussen button en de inleidende tekst */
-  }
+}
 
-
-#button
-  {
+#button {
     margin-top: 10px;
     margin-bottom: 150px; /*ruimte tussen de button en de grid container */
     padding: 7px;
@@ -105,100 +92,103 @@ a:hover {
     text-decoration: none;
     width: 212px;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
-    color:#FFFFFF;
-    border-color: #FFFFFF; /* moet voor grading group4 */
+    color: #ffffff;
+    border-color: #ffffff; /* moet voor grading group4 */
     border-style: double; /* moet voor grading group4 */
     border-width: 4px; /* moet voor grading group4 */
-  }
-
-#homepage_image
-  {
-    width: 400px;
-    float: right;
-  }
-
-#title_afbeelding_homepage
-  {
-    margin-left: 900px;
-    clear: both;
-  }
-
-#grid-container-homepage /*les 5 powerpoint */
-{
-  clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav? */
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 160px; /*ruimte tussen de containers*/
-  justify-content: space-between; /*begint bij het begin en eindigt helemaal op het einde width*/
 }
 
-#grid-container-homepage p /*alle <p> in deze grid op homepage */
-  {
-    font-size: 20px;
-  }
+#homepage_image {
+    width: 400px;
+    float: right;
+}
+#title_afbeelding_homepage {
+    margin-left: 900px;
+    clear: both;
+}
 
-#grid-container-homepage img /*alle img in deze grid op homepage */
-  {
+#grid-container-homepage /*les 5 powerpoint */ {
+    clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav? */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 160px; /*ruimte tussen de containers*/
+    justify-content: space-between; /*begint bij het begin en eindigt helemaal op het einde width*/
+}
+#grid-container-homepage p /*alle <p> in deze grid op homepage */ {
+    font-size: 20px;
+}
+#grid-container-homepage img /*alle img in deze grid op homepage */ {
     width: 190px;
     height: 302px;
-    object-fit: cover; /*zodat de image niet strecht */   
-  }
+    object-fit: cover; /*zodat de image niet strecht */
+}
 
-/* footer */  
-footer img
-  {
+
+
+
+/* footer */
+footer img {
     height: 200px;
     width: 100%;
     background-position: center;
     z-index: 0;
-  }
-
-#copyright 
-{
-  z-index: 1;
-  width: 100%;
-  text-align: center;
-  background-color: #946E54;
+}
+#copyright {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #946e54;
 }
 
+
 /*css alle recepten */
-#grid-container-AlleRecepten
-{
+#grid-container-AlleRecepten {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-#grid-container-AlleRecepten img
-{
-  width: 243px;
-  height: 300px;
-  object-fit: cover; /*zodat de image niet strecht */
+#grid-container-AlleRecepten img {
+    width: 243px;
+    height: 300px;
+    object-fit: cover; /*zodat de image niet strecht */
 }
 
-#padding-AlleRecepten-image
-{
-  margin-right: 10px;
+#padding-AlleRecepten-image {
+    margin-right: 10px;
 }
 
-#grid-container-AlleRecepten a
-{
-  display: block; /* zodat de link onder de afbeelding komt */
-  margin-bottom: 30px;
+#grid-container-AlleRecepten a {
+    display: block; /* zodat de link onder de afbeelding komt */
+    margin-bottom: 30px;
 }
-#padding-container-AlleRecepten-tekst{
-  width: 80%
+#padding-container-AlleRecepten-tekst {
+    width: 80%;
 }
 
 
+/*css detailpagina */
+#grid-container-detailpagina img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
 
+#grid-container-detailpagina {
+    clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
 
+#bereidingswijze {
+    grid-column: 1 / 3; /*neemt de hele rij*/
+}
 
-
-
-
-
-
+h1 {
+    color: #ffffdd;
+    font-size: 48px;
+}
 
 
 
