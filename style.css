@@ -154,16 +154,9 @@ footer img {
     object-fit: cover; /*zodat de image niet strecht */
 }
 
-#padding-AlleRecepten-image {
-    margin-right: 10px;
-}
-
 #grid-container-AlleRecepten a {
     display: block; /* zodat de link onder de afbeelding komt */
     margin-bottom: 30px;
-}
-#padding-container-AlleRecepten-tekst {
-    width: 80%;
 }
 
 
@@ -194,6 +187,30 @@ h1 {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
     text-align: center;
     margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+
+/*meer recepten detailpagina (3recepten naast elkaar) */
+#grid-container-detailpagina-meer-recepten {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+#grid-container-detailpagina-meer-recepten img {
+    width: 243px;
+    height: 300px;
+    object-fit: cover; /*zodat de image niet strecht */
+}
+#grid-container-detailpagina-meer-recepten a {
+    display: block; /* zodat de link onder de afbeelding komt */
+    margin-bottom: 30px;
+}
+
+#beschrijving-gerecht {
+    font-size: 20px;
 }
 
 
