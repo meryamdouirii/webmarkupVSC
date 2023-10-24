@@ -82,7 +82,7 @@ body
 #button
   {
     margin-top: 10px;
-    margin-bottom: 100px; /*ruimte tussen de button en de grid container */
+    margin-bottom: 150px; /*ruimte tussen de button en de grid container */
     padding: 7px;
     border-radius: 10px;
     border: solid ;
@@ -102,12 +102,36 @@ body
     float: right;
   }
 
-#grid-container-homepage
+#grid-container-homepage /*les 5 powerpoint */
 {
   clear: both; /*anders gaat alle tekst boven de nav? */
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-gap: 10px; /*ruimte tussen de containers*/
+  justify-content: space-between; /*begint bij het begin en eindigt helemaal op het einde width*/
 }
+
+#grid-container-homepage p /*alle <p> in deze grid op homepage */
+  {
+    font-size: 20px;
+  }
+
+#grid-container-homepage img /*alle img in deze grid op homepage */
+  {
+    width: 190px;
+    height: 302px;
+    object-fit: cover; /*zodat de image niet strecht */
+  }
+#grid-container-homepage a
+{
+  text-decoration: none;
+  color:#9ACCFF;
+}
+#grid-container-homepage a:hover
+{
+  text-decoration: underline;
+}
+
 
 
 
