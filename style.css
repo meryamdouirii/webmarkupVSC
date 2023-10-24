@@ -177,7 +177,7 @@ footer img {
 #grid-container-detailpagina {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 500px auto;
     grid-gap: 50px;
 }
 
@@ -188,6 +188,12 @@ footer img {
 h1 {
     color: #ffffdd;
     font-size: 48px;
+}
+
+#meer-recepten {
+    clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
+    text-align: center;
+    margin-top: 80px;
 }
 
 
