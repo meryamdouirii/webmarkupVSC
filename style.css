@@ -4,6 +4,7 @@
   border:0;
   color: #FFFFFF;
   background-color: #7D4532;
+  font-size: 17px;
 }
 
 body 
@@ -11,6 +12,15 @@ body
     width: 1250px; 
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
   }
+
+a {
+  text-decoration: none;
+  color:#9ACCFF;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 #mainmenu > a 
   {
     width: 20%;
@@ -37,6 +47,7 @@ body
     display: inline;
     text-decoration: none;
     margin-bottom: 0px;
+    color: #FFFFFF;
   }
 #mainmenu > form
   {
@@ -54,12 +65,14 @@ body
   {
     margin: 10px; /* ruimte tussen de linkjes menubar */
     text-decoration: none;
+    color: #FFFFFF;
   }
 #mainmenu > ul > li > a:hover
   {
     font-weight: bold;
   }
 
+/*css homepage */
 #inleidende_tekst
   {
     float:left;
@@ -89,6 +102,7 @@ body
     text-decoration: none;
     width: 212px;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
+    color:#FFFFFF;
   }
 
 #homepage_image
@@ -99,7 +113,8 @@ body
 
 #title_afbeelding_homepage
   {
-    float: right;
+    margin-left: 900px;
+    clear: both;
   }
 
 #grid-container-homepage /*les 5 powerpoint */
@@ -122,24 +137,45 @@ body
     height: 302px;
     object-fit: cover; /*zodat de image niet strecht */
   }
-#grid-container-homepage a
-{
-  text-decoration: none;
-  color:#9ACCFF;
-}
-#grid-container-homepage a:hover
-{
-  text-decoration: underline;
-}
-
+  
 footer
 {
-  background-image: url("images/footer.png"); 
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("images/footer.png"); 
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
 }
 
+/*css alle recepten */
+#grid-container-AlleRecepten
+{
+    clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#grid-container-AlleRecepten img
+{
+  width: 243px;
+  height: 300px;
+  object-fit: cover; /*zodat de image niet strecht */
+}
+
+#padding-AlleRecepten-image
+{
+  margin-right: 10px;
+}
+
+#grid-container-AlleRecepten a
+{
+  display: block; /* zodat de link onder de afbeelding komt */
+  margin-bottom: 30px;
+}
+#padding-container-AlleRecepten-tekst{
+  width: 80%
+}
 
 
 
