@@ -249,11 +249,16 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 }
 
 /*contact formulier verzonden blok met tekst in het midden*/
-#informatie-blok {
+#informatie-blok-formverstuurd {
     clear: both;
     position: relative;
     left: 25%;
 }
+
+#informatie-blok-formverstuurd img {
+    width: 500px;
+}
+
 
 
 
