@@ -213,7 +213,7 @@ h1 {
     font-size: 20px;
 }
 
-/*contact formulier*/
+/*contact formulier kleur aanpassen*/
 #contact-formulier{
     background-color: #ffffff;
     color: black;
@@ -229,6 +229,22 @@ h1 {
 #copyright {
     color: #ffffff;
 }
+
+/*contact formulier blok met tekst*/
+#informatie-blok {
+    clear: both;
+    position: relative;
+}
+
+#informatie-tekst {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+}
+
+
+
 
 
 
