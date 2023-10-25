@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: #ffffff;
-    background-color: #7d4532;
     font-size: 17px;
     letter-spacing: 0; /* moet voor grading group3 */
 }
 body {
+    color: white;
     width: 1250px;
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
     line-height: normal;
     text-indent: 0%;
     word-spacing: 0px;
+    background-color: #7d4532;
 }
 
 a {
@@ -45,7 +45,6 @@ a:hover {
     display: inline;
     text-decoration: none;
     margin-bottom: 0px;
-    color: #ffffff;
 }
 #mainmenu > form {
     width: 20%;
@@ -61,6 +60,7 @@ a:hover {
     text-decoration: none;
     color: #ffffff;
 }
+
 #mainmenu > ul > li > a:hover {
     font-weight: bold;
 }
@@ -193,7 +193,7 @@ h1 {
 
 
 
-/*meer recepten detailpagina (3recepten naast elkaar) */
+/*meer recepten detailpagina alle 3 hebben dezelfde layout */
 #grid-container-detailpagina-meer-recepten {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -212,6 +212,23 @@ h1 {
 #beschrijving-gerecht {
     font-size: 20px;
 }
+
+/*contact formulier*/
+#contact-formulier{
+    background-color: #ffffff;
+    color: black;
+}
+
+#mainmenu > ul > li > a#contact-formulier-link {
+    color: #000000; 
+}
+
+#mainmenu > form > h3#contact-formulier-search {
+    color: black;
+}
+
+
+
 
 
 
