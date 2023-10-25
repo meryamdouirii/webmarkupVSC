@@ -159,6 +159,12 @@ footer img {
     margin-bottom: 30px;
 }
 
+a:visited#link-andere-website { /* group4 grading selected link*/
+    color:#9accff;
+}
+a:active#link-andere-website { /* group4 grading selected link*/
+    color: rosybrown;
+}
 
 /*css detailpagina */
 #grid-container-detailpagina img {
