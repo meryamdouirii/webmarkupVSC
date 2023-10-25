@@ -239,8 +239,20 @@ h1 {
 #informatie-tekst {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 4%;
     color: white;
+    width: 25%;
+}
+
+p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
+    margin-bottom: 10%;
+}
+
+/*contact formulier verzonden blok met tekst in het midden*/
+#informatie-blok {
+    clear: both;
+    position: relative;
+    left: 25%;
 }
 
 
