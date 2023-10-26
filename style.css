@@ -15,6 +15,11 @@ body {
     background-color: #7d4532;
 }
 
+h1::first-letter { /* grading group4 */
+    font-weight: bold;
+    color: #ffffdd;
+  }
+
 a {
     text-decoration: none;
     color: #9accff;
@@ -52,7 +57,8 @@ a:hover {
     float: left;
     line-height: 13em; /* hoe hoog/laag de searchbar staat */
 }
-#mainmenu form > h3 {
+
+#mainmenu, form h3 { /*grading group 4 */
     text-align: center;
 }
 #mainmenu > ul > li > a {
@@ -82,6 +88,7 @@ a:hover {
 #inleidende_tekst > p {
     margin-bottom: 30px; /*ruimte tussen button en de inleidende tekst */
 }
+
 
 #button {
     margin-top: 10px;
@@ -166,6 +173,9 @@ a:active#link-andere-website { /* group4 grading selected link*/
     color: rosybrown;
 }
 
+#padding-container-AlleRecepten-tekst {
+    width: 350px;
+}
 
 /*css detailpagina */
 #grid-container-detailpagina img {
@@ -268,17 +278,18 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 }
 
 
-/*formulier invullen*/
+/*formulier invullen op contact pagina */
 #formulier-invullen{
     display: inline;
     position: absolute;
     top: 0;
-    margin-left: 20%;
+    margin-left: 15%;
     font-weight: bold;
 }
 
 legend {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 input {
@@ -286,6 +297,9 @@ input {
     border-style: solid;
     border-color: #946e54;
     border-radius: 5px;
+    width: 200px;
+    margin-bottom: 15px;
+    height: 30px;
 }
 
 #button-form{
@@ -299,10 +313,20 @@ input {
     border: solid;
     text-decoration: none;
     width: 220px;
+    height: 40px;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
     border-width: 4px; /* moet voor grading group4 */
 }
 
+/* grading group4 tabel */
+tr:nth-child(even) {
+    background-color: #CFF;
+
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF; 
+}
 
 
 

@@ -50,30 +50,65 @@
                 <strong> Of laat je gegevens achter in het contactformulier hiernaast dan nemen we zo spoedig mogelijk contact met u op	&#46;</strong>
             </article>
             <article id = "formulier-invullen">
-                <form action="verzenden.php" method = "post" id = "formulier-invullen" >
-                    <legend>Contactformulier</legend> 
-
-                    <label for="naam">Naam&#42;</label>
-                    <input type="text" value = "Anne"> 
-
-                    <label for="achternaam">AchterNaam&#42;</label>
-                    <input type="text" value = "Fleur"> 
-
-                    <label for="email">Email&#42;</label>
-                    <input type="email" value = "email"> <!-- grading group2-->
-
-                    <label for="telefoonnummer"> telefoonnummer&#42;</label>
-                    <input type="tel" value = "06 43209996">
-
-                    <label for="postcode"> postcode</label>
-                    <input type="text" value = "postcode"> 
-
-                    <input type="submit" value = "submit" id = "button-form"> <!-- grading group2-->
-
+                <fieldset>
+                    <form action="verstuurd.php" method = "post" id = "formulier-invullen" >
+                        <legend>Contactformulier</legend> 
+    
+                        <label for="naam">Naam&#42;</label>
+                        <input type="text" value = "Anne"> 
+    
+                        <label for="achternaam">AchterNaam&#42;</label>
+                        <input type="text" value = "Fleur"> 
+    
+                        <label for="email">Email&#42;</label>
+                        <input type="email" value = "email"> <!-- grading group2-->
+    
+                        <label for="telefoonnummer"> telefoonnummer&#42;</label>
+                        <input type="tel" value = "06 43209996">
+    
+                        <label for="postcode"> postcode</label>
+                        <input type="text" value = "postcode"> 
+    
+                        <input type="submit" value = "submit" id = "button-form"> <!-- grading group2-->
+                </fieldset>
                 </form>
             </article>
-        
     </main>
+
+    <section>   
+        <table> <!-- grading group 4 tabel-->
+            <tr>
+                <th> fruitsoort </th>
+                <th> kleur </th>
+                <th> smaak </th>
+                <th> cijfer</th>
+            </tr>
+            <tr>
+                <th> Appel </th>
+                <th> rood </th>
+                <th> knapperig</th>  
+                <th> 3 </th>
+            </tr>
+            <tr>
+                <th> bannaan </th>
+                <th> geel</th>
+                <th> zoet </th>  
+                <th>  5 </th>
+            </tr>
+            <tr>
+                <th>aardbeien</th>
+                <th>rood</th>
+                <th>zoet</th>
+                <th> 5</th>
+            </tr>
+            <tr>
+                <th> manderijn </th>
+                <th> oranje</th>
+                <th> zoet </th>
+                <th> 10</th>
+            </tr>
+        </table>
+    </section>
 
     <footer>
         <img src="images/footer.png" alt="footer" title = "footer">
