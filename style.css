@@ -166,6 +166,7 @@ a:active#link-andere-website { /* group4 grading selected link*/
     color: rosybrown;
 }
 
+
 /*css detailpagina */
 #grid-container-detailpagina img {
     width: 500px;
@@ -301,6 +302,11 @@ input {
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
     border-width: 4px; /* moet voor grading group4 */
 }
+
+
+
+
+
 
 
 
