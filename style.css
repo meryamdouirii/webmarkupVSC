@@ -349,6 +349,7 @@ tr:nth-child(odd) {
     }
 }
 
+/* coookkiesss */
 #cookies-message {
     position: fixed;
     bottom: 0;
@@ -372,6 +373,20 @@ tr:nth-child(odd) {
 #cookies-message p {
     margin: 0;
 }
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+p, h1, #beschrijving-gerecht, #grid-container-detailpagina, #meer-recepten {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* text-transform uppercase */
+figcaption {
+    text-transform: uppercase;
+}
+
+
 
 
 
