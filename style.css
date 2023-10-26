@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 17px;
     letter-spacing: 0; /* moet voor grading group3 */
 }
+
+
 body {
+    font-size: 17px; /*aantal pixels  / aaantal pixels bovenin css (17) */
     color: white;
-    width: 1250px;
+    width: 73.5rem; /* was eerst 1250px */
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
     line-height: normal;
     text-indent: 0%;
@@ -39,94 +41,98 @@ a:hover {
     height: 100%;
     margin-top: 40px;
 }
+
 #mainmenu > ul {
     width: 30%;
     line-height: 12em; /* hoe hoog/laag de menubar staat */
     float: left;
     text-align: center;
 }
+
 #mainmenu > ul > li {
-    margin: 10px; /* ruimte tussen de linkjes menubar */
+    margin-right: 0.6rem; /* ruimte tussen de linkjes menubar */
+    margin-left: 0.6rem; /* ruimte tussen de linkjes menubar */
     display: inline;
     text-decoration: none;
-    margin-bottom: 0px;
 }
 #mainmenu > form {
     width: 20%;
-    line-height: 7em;
     float: left;
     line-height: 13em; /* hoe hoog/laag de searchbar staat */
 }
 
-#mainmenu, form h3 { /*grading group 4 */
-    text-align: center;
-}
 #mainmenu > ul > li > a {
-    margin: 10px; /* ruimte tussen de linkjes menubar */
+    margin-right: 0.6rem; /* ruimte tussen de linkjes menubar */
+    margin-left: 0.6rem; /* ruimte tussen de linkjes menubar */
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.2rem;
 }
 
 #mainmenu > ul > li > a:hover {
     font-weight: bold;
 }
 
+#mainmenu, form h3 { /*grading group 4 */
+    text-align: center;
+}
 
 
 
 /*css homepage */
 #inleidende_tekst {
     float: left;
-    width: 654px;
-    font-size: 18px;
+    width: 44rem; 
+    font-size: 1.3rem;
 }
 #inleidende_tekst > h1 {
-    margin-bottom: 20px; /*ruimte tussen h1 en de inleidende tekst */
+    margin-bottom: 0.85rem; /*ruimte tussen h1 en de inleidende tekst */
     color: #ffffdd;
-    font-size: 48px;
+    font-size: 2.8rem;
 }
 #inleidende_tekst > p {
-    margin-bottom: 30px; /*ruimte tussen button en de inleidende tekst */
+    margin-bottom: 1.5rem; /*ruimte tussen button en de inleidende tekst */
 }
 
 
 #button {
-    margin-top: 10px;
-    margin-bottom: 150px; /*ruimte tussen de button en de grid container */
-    padding: 7px;
+    margin-top: 4.7rem; /*aantal pixels  / 17 */
+    margin-bottom: 7rem; /*ruimte tussen de button en de grid container */
+    padding: 0.4rem;
     border-radius: 10px;
     border: solid;
     text-decoration: none;
-    width: 212px;
+    width: 12.5rem;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
     color: #ffffff;
+    font-size: 1rem;
     border-color: #ffffff; /* moet voor grading group4 */
     border-style: double; /* moet voor grading group4 */
-    border-width: 4px; /* moet voor grading group4 */
+    border-width: 0.2rem; /* moet voor grading group4 */
 }
 
 #homepage_image {
-    width: 400px;
+    width: 24rem;
     float: right;
 }
 #title_afbeelding_homepage {
-    margin-left: 900px;
+    margin-left: 53rem;
     clear: both;
 }
 
-#grid-container-homepage /*les 5 powerpoint */ {
+#grid-container-homepage {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav? */
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 160px; /*ruimte tussen de containers*/
+    grid-gap: 9.4rem; /*ruimte tussen de containers*/
     justify-content: space-between; /*begint bij het begin en eindigt helemaal op het einde width*/
 }
 #grid-container-homepage p /*alle <p> in deze grid op homepage */ {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 #grid-container-homepage img /*alle img in deze grid op homepage */ {
-    width: 190px;
-    height: 302px;
+    width: 11.2rem;
+    height: 17.8rem;
     object-fit: cover; /*zodat de image niet strecht */
 }
 
@@ -135,13 +141,11 @@ a:hover {
 
 /* footer */
 footer img {
-    height: 200px;
+    height: 11.8rem;
     width: 100%;
-    background-position: center;
-    z-index: 0;
 }
+
 #copyright {
-    z-index: 1;
     width: 100%;
     text-align: center;
     background-color: #946e54;
@@ -156,7 +160,7 @@ footer img {
 }
 
 #grid-container-AlleRecepten img {
-    width: 243px;
+    width: 14.29rem; /*aantal pixels delen door 17 */
     height: 300px;
     object-fit: cover; /*zodat de image niet strecht */
 }
@@ -174,20 +178,20 @@ a:active#link-andere-website { /* group4 grading selected link*/
 }
 
 #padding-container-AlleRecepten-tekst {
-    width: 350px;
+    width: 20.5rem;
 }
 
 /*css detailpagina */
 #grid-container-detailpagina img {
-    width: 500px;
-    height: 300px;
+    width: 29.4rem;
+    height: 17rem;
     object-fit: cover;
 }
 
 #grid-container-detailpagina {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
     display: grid;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 29.4rem auto;
     grid-gap: 50px;
 }
 
@@ -197,15 +201,15 @@ a:active#link-andere-website { /* group4 grading selected link*/
 
 h1 {
     color: #ffffdd;
-    font-size: 48px;
+    font-size: 2.5rem;
 }
 
 #meer-recepten {
     clear: both; /* DOE DIT BIJ ALLE PAGINAS anders gaat alle tekst boven de nav */
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 50px;
-    font-size: 30px;
+    margin-top: 4.7rem;
+    margin-bottom: 2.9rem;
+    font-size: 1.7rem;
 }
 
 
@@ -217,17 +221,17 @@ h1 {
     justify-content: space-between;
 }
 #grid-container-detailpagina-meer-recepten img {
-    width: 243px;
-    height: 300px;
+    width: 14.3rem;
+    height: 17.6rem;
     object-fit: cover; /*zodat de image niet strecht */
 }
 #grid-container-detailpagina-meer-recepten a {
     display: block; /* zodat de link onder de afbeelding komt */
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
 }
 
 #beschrijving-gerecht {
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 /*contact formulier kleur aanpassen*/
@@ -273,8 +277,9 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 }
 
 #informatie-blok-formverstuurd img {
-    width: 500px;
+    width: 30rem;
     display: inline;
+    height: 30rem;
 }
 
 
@@ -289,17 +294,21 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 
 legend {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
+}
+
+label {
+    font-size: 1.3rem;
 }
 
 input {
-    border: 2px;
+    border: 0.15rem;
     border-style: solid;
     border-color: #946e54;
-    border-radius: 5px;
-    width: 200px;
-    margin-bottom: 15px;
-    height: 30px;
+    border-radius: 0.29rem;
+    width: 12.5rem;
+    margin-bottom: 0.8rem;
+    height: 1.76rem;
 }
 
 #button-form{
@@ -307,15 +316,14 @@ input {
     color: #ffffff;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 150px; /*ruimte tussen de button en de grid container */
-    padding: 7px;
+    margin-top: 0.6rem;
+    padding: 0.3rem;
     border: solid;
     text-decoration: none;
-    width: 220px;
-    height: 40px;
+    width: 13rem;
+    height: 2.4rem;
     display: block; /*zodat er ruimte komt tussen inleidende tekst en button */
-    border-width: 4px; /* moet voor grading group4 */
+    border-width: 0.23rem; /* moet voor grading group4 */
 }
 
 /* grading group4 tabel */
