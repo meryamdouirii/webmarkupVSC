@@ -280,6 +280,19 @@ legend {
     text-align: center;
 }
 
+input {
+    border: 2px;
+    border-style: solid;
+    border-color: #946e54;
+    border-radius: 5px;
+}
+
+#button{
+    background-color: #946e54;
+    color: #ffffff;
+}
+
+
 
 
 
