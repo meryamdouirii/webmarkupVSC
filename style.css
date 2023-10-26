@@ -111,10 +111,13 @@ a:hover {
     border-width: 0.2rem; /* moet voor grading group4 */
 }
 
-#homepage_image {
+.homepage_image {
     width: 24rem;
     float: right;
 }
+
+
+
 #title_afbeelding_homepage {
     margin-left: 53rem;
     clear: both;
@@ -370,7 +373,8 @@ tr:nth-child(odd) {
     display: inline;
 }
 
-#cookies-message p {
+#cookies-message 
+p {
     margin: 0;
 }
 
