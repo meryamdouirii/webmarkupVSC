@@ -263,9 +263,22 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 
 #informatie-blok-formverstuurd img {
     width: 500px;
+    display: inline;
 }
 
 
+/*formulier invullen*/
+#formulier-invullen{
+    display: inline;
+    position: absolute;
+    top: 0;
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+legend {
+    text-align: center;
+}
 
 
 
