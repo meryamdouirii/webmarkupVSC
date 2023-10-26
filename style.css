@@ -336,6 +336,7 @@ tr:nth-child(odd) {
     background-color: #FFF; 
 }
 
+/*responsive maken en 2 media queries*/
 @media screen and (max-width: 768px) {
     body{
         font-size: 10px;
@@ -346,6 +347,30 @@ tr:nth-child(odd) {
     body {
         width: 73.5rem;
     }
+}
+
+#cookies-message {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.accept-button {
+    display: none;
+}
+
+#cookies-message:hover .accept-button {
+    display: inline;
+}
+
+#cookies-message p {
+    margin: 0;
 }
 
 
