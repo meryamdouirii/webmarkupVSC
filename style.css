@@ -336,6 +336,18 @@ tr:nth-child(odd) {
     background-color: #FFF; 
 }
 
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 10px;
+    }  
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        width: 73.5rem;
+    }
+}
+
 
 
 
