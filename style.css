@@ -339,9 +339,11 @@ tr:nth-child(odd) {
 
 /*responsive maken en 2 media queries*/
 @media screen and (max-width: 768px) {
-    body{
+    .homepage_image {
+        width: 15rem;
+        float: left;
         font-size: 10px;
-    }  
+    }
 }
 
 @media screen and (min-width: 769px) {
