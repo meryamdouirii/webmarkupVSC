@@ -73,7 +73,7 @@ a:hover {
     font-weight: bold;
 }
 
-#mainmenu, form h3 { /*grading group 4 */
+#mainmenu {
     text-align: center;
 }
 
@@ -247,9 +247,7 @@ h1 {
     color: #000000; 
 }
 
-#mainmenu > form > h3#contact-formulier-search {
-    color: black;
-}
+
 #copyright {
     color: #ffffff;
 }
@@ -367,7 +365,7 @@ tr:nth-child(odd) {
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-p, h1, #beschrijving-gerecht, #grid-container-detailpagina, #meer-recepten {
+p, h1, #beschrijving-gerecht, #grid-container-detailpagina, #meer-recepten { /*grading group 4 met , */
     font-family: 'Poppins', sans-serif;
 }
 
