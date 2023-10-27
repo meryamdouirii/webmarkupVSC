@@ -180,7 +180,7 @@ a:active#link-andere-website { /* group4 grading selected link*/
     color: rosybrown;
 }
 
-#padding-container-AlleRecepten-tekst {
+.padding-container-AlleRecepten-tekst {
     width: 20.5rem;
 }
 
