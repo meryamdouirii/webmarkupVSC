@@ -285,7 +285,7 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
 
 
 /*formulier invullen op contact pagina */
-#formulier-invullen{
+.formulier-invullen{
     display: inline;
     position: absolute;
     top: 0;
