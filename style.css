@@ -243,7 +243,7 @@ h1 {
     color: black;
 }
 
-#mainmenu > ul > li > a#contact-formulier-link {
+#mainmenu > ul > li > a.contact-formulier-link {
     color: #000000; 
 }
 
