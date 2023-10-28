@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 
 
 body {
-    font-size: 17px; /*aantal pixels  / aaantal pixels bovenin css (17) */
+    font-size: 16px; /*aantal pixels  / aaantal pixels bovenin css (17) */
     color: white;
     width: 73.5rem; /* was eerst 1250px */
     margin: auto; /* wijdte van pagina is 800 px en komt in het midden door margin: auto */
@@ -83,21 +85,18 @@ a:hover {
 #inleidende_tekst {
     float: left;
     width: 44rem; 
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 #inleidende_tekst > h1 {
     margin-bottom: 0.85rem; /*ruimte tussen h1 en de inleidende tekst */
     color: #ffffdd;
     font-size: 2.8rem;
 }
-#inleidende_tekst > p {
-    margin-bottom: 1.5rem; /*ruimte tussen button en de inleidende tekst */
-}
 
 
 #button {
-    margin-top: 4.7rem; /*aantal pixels  / 17 */
-    margin-bottom: 7rem; /*ruimte tussen de button en de grid container */
+    margin-top: 4.0rem; /*aantal pixels  / 17 */
+    margin-bottom: 5rem; /*ruimte tussen de button en de grid container */
     padding: 0.4rem;
     border-radius: 10px;
     border: solid;
@@ -114,6 +113,7 @@ a:hover {
 .homepage_image {
     width: 24rem;
     float: right;
+    border-radius: 10px;
 }
 
 
@@ -137,6 +137,7 @@ a:hover {
     width: 11.2rem;
     height: 17.8rem;
     object-fit: cover; /*zodat de image niet strecht */
+    border-radius: 10px;
 }
 
 
@@ -227,6 +228,7 @@ h1 {
     width: 14.3rem;
     height: 17.6rem;
     object-fit: cover; /*zodat de image niet strecht */
+    border-radius: 10px;
 }
 #grid-container-detailpagina-meer-recepten a {
     display: block; /* zodat de link onder de afbeelding komt */
@@ -363,10 +365,6 @@ tr:nth-child(odd) {
     z-index: 9999;
     background-color:#946e54;
 }
-
-
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 p, h1, #beschrijving-gerecht, #grid-container-detailpagina, #meer-recepten { /*grading group 4 met , */
     font-family: 'Poppins', sans-serif;
