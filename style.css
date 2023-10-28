@@ -402,7 +402,7 @@ section {
 
 #email {
     display: block;
-    width: 400px;
+    width: 415px;
 }
 .section-email {
     grid-area: email;
@@ -420,8 +420,8 @@ section {
 
 #bericht {
     display: block;
-    width: 400px;
-    height: 100px
+    width: 415px;
+    height: 100px;
 }
 
 .section-bericht {
