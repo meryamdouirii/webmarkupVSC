@@ -289,7 +289,7 @@ p#margin-contact { /*no space: dus de id moet in het p tag zitten*/
     display: inline;
     position: absolute;
     top: 0;
-    margin-left: 15%;
+    margin-left: 10%;
     font-weight: bold;
 }
 
@@ -377,6 +377,61 @@ figcaption {
     text-transform: uppercase;
 }
 
+fieldset {
+    display: grid;
+    grid-template-columns: auto auto; /* auto auto */
+    grid-template-areas:
+    "naam achternaam"
+    "email email"
+    "telefoonnummer postcode"
+    "bericht bericht"
+    "submit submit";
+}
+
+section {
+    margin-right: 10px;
+}
+
+.section-naam {
+    grid-area: naam;
+}
+.section-achternaam {
+    grid-area: achternaam;
+}
+
+
+#email {
+    display: block;
+    width: 400px;
+}
+.section-email {
+    grid-area: email;
+}
+
+
+.section-telefoonnummer {
+    grid-area: telefoonnummer;
+}
+
+
+.section-postcode {
+    grid-area: postcode;
+}
+
+#bericht {
+    display: block;
+    width: 400px;
+    height: 100px
+}
+
+.section-bericht {
+    grid-area: bericht;
+}
+
+
+.section-submit {
+    grid-area: submit;
+}
 
 
 
